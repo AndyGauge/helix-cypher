@@ -1,0 +1,11 @@
+[package]
+name = "text_transform"
+version = "0.1.0"
+author = "andygauge"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+helix = "0.7.2"
+rayon = "0.8.2"
